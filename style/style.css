@@ -1,0 +1,36 @@
+        /*      font-family: 'Open Sans', sans-serif;
+                font-family: 'Roboto', sans-serif;     */
+/* Common Styles or Utilities */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #F3F1FF;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    background: #ffffff;
+    Width: 870px;
+    padding: 30px;
+}
+.title {
+    color: #562EFF;
+    
+}
+/* Top Players Style */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.player {
+    display: flex;
+    align-items: center;
+}
+.player img {
+    width: 56px;
+    height: 56px;
+}
+.player-name {
+    margin-left: 16px;
+}
